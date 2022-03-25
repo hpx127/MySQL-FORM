@@ -1,0 +1,24 @@
+.btn-effect{
+    border-radius: 10px rgb(88, 119, 88);
+    padding: 10px 20px;
+    background-color:indigo;
+    font-size: 20px;
+    color:oldlace;
+    font-family: monospace;
+}
+
+.btn-effect:hover{
+    background-color:navy;
+}
+
+.form-group label{
+    font-size: 18px;
+    font-family: monospace;
+    color: darkslategray;
+}
+
+.text-center h4{
+    color: indigo;
+    font-family: monospace;
+    
+}

@@ -1,0 +1,20 @@
+{
+  "name": "mysqlback",
+  "version": "1.0.0",
+  "description": "this is backend of mysql",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "author": "harshit patel",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mysql": "^2.18.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "bcryptjs": "^2.4.3"
+  }
+}

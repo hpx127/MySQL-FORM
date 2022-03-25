@@ -1,0 +1,54 @@
+<div class="text-center">
+  <h4>SIGN-UP FORM</h4>
+</div>
+
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit(contactForm)">
+  <div class="form-group">
+    <label>User name</label><br />
+    <input
+      type="text"
+      name="name"
+      formControlName="name"
+      placeholder="user name"
+      class="form-control text-center"
+    /><br />
+  </div>
+
+  <div class="form-group">
+    <label>User email</label><br />
+    <input
+      type="email"
+      name="email"
+      formControlName="email"
+      placeholder="user email"
+      class="form-control text-center"
+    /><br />
+  </div>
+
+  <div class="form-group">
+    <label>User number</label><br />
+    <input
+      type="number"
+      name="number"
+      formControlName="number"
+      placeholder="user number"
+      class="form-control text-center"
+    /><br />
+  </div>
+
+  <div class="form-group">
+    <label>User password</label><br />
+    <input
+      type="password"
+      name="password"
+      formControlName="password"
+      placeholder="user password"
+      class="form-control text-center"
+    /><br />
+  </div>
+  <div class="text-center">
+    <button type="submit" class="btn-effect">Submit</button>
+  </div>
+</form>
+
+<a href="/home">view table</a>

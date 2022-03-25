@@ -1,0 +1,24 @@
+.btn-effect{
+    border-radius: 10px rgb(88, 119, 88);
+    padding: 10px 20px;
+    background-color:seagreen;
+    font-size: 20px;
+    color:oldlace;
+    font-family: monospace;
+}
+
+.btn-effect:hover{
+    background-color:tomato;
+}
+
+.form-group label{
+    font-size: 18px;
+    font-family: monospace;
+    color:seagreen;
+}
+
+.text-center h4{
+    color:rgb(88, 119, 88);
+    font-family: monospace;
+    
+}
